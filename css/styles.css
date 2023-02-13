@@ -1,0 +1,146 @@
+body {
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  font-family: "Staatliches", cursive;
+}
+html {
+  box-sizing: border-box;
+  /* rem = 10px */
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img {
+  height: 25rem;
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contenedor {
+  max-width: 120rem;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 6rem;
+  margin: 0;
+  padding: 3rem 0;
+}
+
+form {
+  padding: 4rem 2rem;
+  margin: 0 auto;
+  background-color: #fff;
+  margin-bottom: 8rem;
+}
+
+.contenido,
+.contenido {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .contenido,
+  .contenido {
+    flex-direction: row;
+  }
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .campo {
+    width: 100%;
+    margin-left: 2rem;
+  }
+
+  form .campo:first-child {
+    margin-left: 0rem;
+  }
+}
+
+.campo label {
+  font-weight: 200;
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+.campo select {
+  font-size: 1.5rem;
+  border: 1px solid #d1d1d1;
+  padding: 6px 10px;
+  box-shadow: none;
+}
+
+.tecnologia {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  border: 1px solid #000;
+}
+
+.tecnologia:last-child {
+  margin-bottom: 0rem;
+}
+
+@media (min-width: 768px) {
+  .tecnologia {
+    margin-bottom: 2rem !important;
+  }
+}
+
+.contenido_texto {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.contenido_texto .texto1 {
+  width: 50%;
+  text-align: center;
+}
+
+.contenido_texto .texto1 p {
+  font-size: 1.8rem;
+  padding: 0.3rem;
+}
+
+@media (min-width: 768px) {
+  .mostrar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+.mostrar1 {
+  display: grid;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 2rem;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Filtro-Equipos-Tecnologicos</title>
+  </head>
+  <body>
+    <header>
+      <h1>BUSCADOR DE EQUIPOS TECNOLOGICOS</h1>
+    </header>
+    <main>
+      <div class="contenedor">
+        <form action="" id="buscador">
+          <div class="contenido">
+            <div class="campo">
+              <label for="">Equipo</label>
+              <select name="" id="equipo">
+                <option value="" selected>Seleccione</option>
+                <option value="Celular">Celular</option>
+                <option value="LAPTOP">Laptop</option>
+                <option value="Monitor">Monitor</option>
+                <option value="Teclado">Teclado</option>
+              </select>
+            </div>
+            <div class="campo">
+              <label for="">Marca</label>
+              <select name="" id="marca">
+                <option value="" selected>Seleccione</option>
+                <option value="ASUS">ASUS</option>
+                <option value="LG">LG</option>
+                <option value="SAMSUNG">SAMSUNG</option>
+                <option value="HP">HP</option>
+                <option value="XIAOMI">XIAOMI</option>
+                <option value="IPHONE">IPHONE</option>
+                <option value="LENOVO">LENOVO</option>
+                <option value="HALION">HALION</option>
+                <option value="APPLE">APPLE</option>
+              </select>
+            </div>
+            <div class="campo">
+              <label for="">Modelo</label>
+              <select name="" id="modelo">
+                <option value="" selected>Seleccione</option>
+                <option value="A23">A23</option>
+                <option value="GTR">GTR</option>
+                <option value="GAMER">GAMER</option>
+                <option value="EMPRESARIAL">EMPRESARIAL</option>
+                <option value="REDMI 10">REDMI 10</option>
+                <option value="A21">A21</option>
+                <option value="S23">S23</option>
+                <option value="REDMI 11">REDMI 11</option>
+                <option value="GAMER XT">GAMER XT</option>
+                <option value="OFICINA">OFICINA</option>
+                <option value="GENERACION 18">GENERACION 18</option>
+                <option value="ESTUDIANTE">ESTUDIANTE</option>
+                <option value="GAMER RTX">GAMER RTX</option>
+                <option value="COMUN">COMUN</option>
+                <option value="LOL">LOL</option>
+                <option value="SIN TECLADO NUMERICO">SIN TECLADO NUMERICO</option>
+              </select>
+            </div>
+            <div class="campo">
+              <label for="">Año</label>
+              <select name="" id="year">
+                <option value="" selected>Seleccione</option>
+              </select>
+            </div>
+          </div>
+          <div class="contenido">
+            <div class="campo">
+              <label for="">Precio</label>
+              <select name="" id="precio">
+                <option value="" selected>Seleccione</option>
+                <option value="3000">S/. 3000</option>
+                <option value="3250">S/. 3250</option>
+                <option value="2500">S/. 2500</option>
+                <option value="2800">S/. 2800</option>
+                <option value="950">S/. 950</option>
+                <option value="750">S/. 750</option>
+                <option value="3500">S/. 3500</option>
+                <option value="1800">S/. 1800</option>
+                <option value="2300">S/. 2300</option>
+                <option value="6500">S/. 6500</option>
+                <option value="1200">S/. 1200</option>
+                <option value="7500">S/. 7500</option>
+                <option value="120">S/. 120</option>
+                <option value="150">S/. 150</option>
+                <option value="50">S/. 50</option>
+                <option value="230">S/. 230</option>
+                <option value="160">S/. 160</option>
+              </select>
+            </div>
+            <div class="campo">
+              <label for="">Color</label>
+              <select name="" id="color">
+                <option value="" selected>Seleccione</option>
+                <option value="Blanco">Blanco</option>
+                <option value="Negro">Negro</option>
+                <option value="Azul">Azul</option>
+                <option value="Plomo">Plomo</option>
+                <option value="Gris">Gris</option>
+              </select>
+            </div>
+            <div class="campo">
+              <label for="">Garantia</label>
+              <select name="" id="garantia">
+                <option value="" selected>Seleccione</option>
+                <option value="1">1 año</option>
+                <option value="2">2 año</option>
+                <option value="3">3 año</option>
+              </select>
+            </div>
+          </div>
+        </form>
+        <h1>Resultados</h1>
+        <div id="resultados" class="mostrar"></div>
+      </div>
+    </main>
+
+    <script src="js/db.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
